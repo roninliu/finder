@@ -30,8 +30,8 @@ define('APP_DEBUG', True);
 define('COMMON_PATH', './Common/');
 
 //当前入口文件
-define('BIND_MODULE', 'Home'); //绑定当前入口模块
-//define('BIND_CONTROLLER','Index'); // 绑定当前入口控制器
+define('BIND_MODULE', 'Admin'); //绑定当前入口模块
+define('BIND_CONTROLLER', 'Index'); // 绑定当前入口控制器
 define('BUILD_CONTROLLER_LIST', 'Index'); // 生成控制器
 //define('BUILD_MODEL_LIST','User');//生成模型
 

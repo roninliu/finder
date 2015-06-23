@@ -12,4 +12,4 @@
 		<script src="__ROOT__/Public/lib/jquery-2.1.0.min.js"></script>
 		<script src="__ROOT__/Public/lib/sea.js"></script>
 	</head>
-	<body>
+	

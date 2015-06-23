@@ -1,0 +1,66 @@
+[ 2015-06-22T12:48:27+08:00 ] ::1 /finder/sdk.php/doLogin?username=123&password=123123
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+NOTIC: [8] Array to string conversion /Users/ronin/workspace/php/finder/Application/Core/Service/UserService.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( account='Array' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-06-22T12:48:52+08:00 ] ::1 /finder/sdk.php/doLogin?username=123123&password=123123
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+NOTIC: [8] Array to string conversion /Users/ronin/workspace/php/finder/Application/Core/Service/UserService.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( account='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-06-22T13:07:53+08:00 ] ::1 /finder/sdk.php/doLogin?username=admin&password=123123
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+NOTIC: [8] Array to string conversion /Users/ronin/workspace/php/finder/Application/Core/Service/UserService.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( account='Array' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-06-22T13:10:23+08:00 ] ::1 /finder/sdk.php/doLogin?username=admin&password=123123
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: username /Users/ronin/workspace/php/finder/Application/Core/Service/UserService.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( account='' )  [ RunTime:0.0003s ]
+
+[ 2015-06-22T13:10:29+08:00 ] ::1 /finder/sdk.php/doLogin?username=admin&password=adms
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: username /Users/ronin/workspace/php/finder/Application/Core/Service/UserService.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( account='' )  [ RunTime:0.0002s ]
+
+[ 2015-06-22T19:07:04+08:00 ] ::1 /finder/sdk.php/doLogin?username=admin&password=admin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: username /Users/ronin/workspace/php/finder/Application/Core/Service/UserService.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( account='' )  [ RunTime:0.0004s ]
+
+[ 2015-06-22T19:07:45+08:00 ] ::1 /finder/sdk.php/doLogin?username=admin&password=admin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0002s ]
+
+[ 2015-06-22T21:40:19+08:00 ] ::1 /finder/sdk.php/doLogin?username=admin&password=admin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0002s ]
+
+[ 2015-06-22T21:44:02+08:00 ] ::1 /finder/sdk.php/doLogin?username=admin&password=11
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0002s ]
+
+[ 2015-06-22T21:45:52+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin1' )  [ RunTime:0.0002s ]
+
+[ 2015-06-22T21:46:11+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0002s ]
+
+[ 2015-06-22T21:46:21+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE ( account='gues' )  [ RunTime:0.0003s ]
+

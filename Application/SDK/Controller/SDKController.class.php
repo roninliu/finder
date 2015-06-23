@@ -12,4 +12,14 @@ class SDKController extends Controller {
 		$result = $userService->findUser();
 		$this->ajaxReturn($result);
 	}
+
+	public function doLogin() {
+		$user = array(
+			'account' => I("username"),
+			'password' => I("password"),
+		);
+		$userService = D("Core/User");
+		$result = $userService->findUser($user);
+		$this->ajaxReturn($result);
+	}
 }
