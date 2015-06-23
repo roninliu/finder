@@ -14,24 +14,31 @@
 		<script src="/finder/Public/lib/sea.js"></script>
 	</head>
 	
-<body class="single-layout">
-<div class="inner">
-	
+<body class="main-layout">
+	<div class="header">
+		<div class="inner">
+			<div class="logo">Finder in China</div>
+			<div class="menu">
+				<a href="/finder/index.php/lines" class="menu-item">路线</a>
+				<a href="" class="menu-item">领队</a>
+				<a href="" class="menu-item">影像</a>
+				<a href="" class="menu-item">我的</a>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="inner">
+			<div class="content">
 
-<div class="login">
-	<h1>用户登录</h1>
-	<ul>
-		<li><label for="js_username">用户名：</label><input type="text" name="username" id="js_username"></li>
-		<li><label for="js_password">密码：</label><input type="password" name="password" id="js_password"></li>
-		<li><button id="js_login" type="button">登录</button></li>
-	</ul>
-</div>
+asdasd
 
 <script>
 	seajs.use("/finder/Public/js/login", function(app) {
 		app.init();
 	})
-</script>
-</div>
+</script></div>
+		</div>
+	</div>
+<div class="footer">fotter</div>
 </body>
 </html>

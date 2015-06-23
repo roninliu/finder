@@ -7,7 +7,6 @@ class CommonController extends Controller {
 		$isSession = session('?skey');
 		$IndexController = A("Index");
 		if (!$isSession) {
-			echo "未登录态";
 			$IndexController->user();
 		}
 	}

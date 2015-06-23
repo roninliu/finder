@@ -14,24 +14,15 @@
 		<script src="/finder/Public/lib/sea.js"></script>
 	</head>
 	
-<body class="single-layout">
-<div class="inner">
-	
+<body class="main-layout">
+ 
 
-<div class="login">
-	<h1>用户登录</h1>
-	<ul>
-		<li><label for="js_username">用户名：</label><input type="text" name="username" id="js_username"></li>
-		<li><label for="js_password">密码：</label><input type="password" name="password" id="js_password"></li>
-		<li><button id="js_login" type="button">登录</button></li>
-	</ul>
-</div>
+asdasd
 
 <script>
 	seajs.use("/finder/Public/js/login", function(app) {
 		app.init();
 	})
 </script>
-</div>
 </body>
 </html>

@@ -31,9 +31,19 @@ class UserService extends Model {
 					$json["msg"] = "账户已过期！";
 					$json['status'] = "fail";
 				} else {
-					$json["code"] = 1003;
-					$json['status'] = "success";
-					$json["data"] = $loginUser;
+					$utils = new \Com\Utils\Utils();
+					$status = $utils->setSession($loginUser);
+					if ($status) {
+						$json["code"] = 1003;
+						$json['status'] = "success";
+						$json["msg"] = "登录成功";
+					} else {
+						$json = array(
+							"code" => 1005,
+							'status' => "fail",
+							"msg" => "服务器异常",
+						);
+					}
 				}
 			} else {
 				$json["code"] = 1002;
@@ -45,7 +55,7 @@ class UserService extends Model {
 			$json["msg"] = "用户不存在！";
 			$json['status'] = "fail";
 		}
-		return $json;
 
+		return $json;
 	}
 }

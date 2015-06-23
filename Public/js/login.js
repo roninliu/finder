@@ -16,6 +16,9 @@ define(function(require, exports, module) {
 			},
 			success:function(result){
 				console.log(result);
+				if(result.code ==1003 ){
+					location.href = config.BASE_URL;
+				}
 			}
 		})
 	}
@@ -24,7 +27,6 @@ define(function(require, exports, module) {
 	var _loginHandler = function(target) {
 		var username = $("#js_username");
 		var password = $("#js_password");
-		console.log((utils.verify(username.val(), utils.ISNONE) && utils.verify(password.val(), utils.ISNONE)))
 		if (utils.verify(username.val(), utils.ISNONE) && utils.verify(password.val(), utils.ISNONE)) {
 			var user = {
 				user: username.val(),
