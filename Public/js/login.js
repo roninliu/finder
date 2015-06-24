@@ -5,6 +5,8 @@ define(function(require, exports, module) {
 
 	var utils = require("../util/utils");
 	var config = require("../util/config");
+	var common = require("../util/common");
+
 
 	var _toLoginHandler = function(oData){
 		$.ajax({
@@ -39,6 +41,7 @@ define(function(require, exports, module) {
 	}
 
 	exports.init = function() {
+		common.init();
 		$("#js_login").click(function() {
 			_loginHandler(this);
 		})

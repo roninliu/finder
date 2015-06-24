@@ -676,3 +676,8 @@ SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
 SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
 SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0002s ]
 
+[ 2015-06-23T21:27:34+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0002s ]
+

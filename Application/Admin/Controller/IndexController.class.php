@@ -13,6 +13,7 @@ class IndexController extends Controller {
 	}
 
 	public function index() {
+		$this -> assign("dashbord","selected");
 		$this->display("Dashbord/Main");
 	}
 	public function user() {
@@ -21,6 +22,22 @@ class IndexController extends Controller {
 	}
 
 	public function lines() {
-		echo "line";
+		$this -> assign("lines","selected");
+		$this->display("Lines/Lines");
+	}
+
+	public function team(){
+		$this -> assign("team","selected");
+		$this->display("Team/Team");
+	}
+
+	public function video(){
+		$this -> assign("video","selected");
+		$this->display("Video/Video");
+	}
+
+	public function myself(){
+		$this -> assign("myself","selected");
+		$this->display("Myself/Myself");
 	}
 }

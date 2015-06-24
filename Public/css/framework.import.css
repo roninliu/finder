@@ -63,6 +63,16 @@ button,
   text-decoration: none;
   background: #6dadbd;
 }
+.header .menu .menu-item.selected {
+  background: #6dadbd;
+}
 .container {
   padding: 20px;
+}
+.footer {
+  background-color: #090909;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 0;
 }
