@@ -15,12 +15,12 @@
 	</head>
 	
 <body class="single-layout">
-<div class="header">
+<div class="header" id="js_header">
 		<div class="inner">
 			<div class="logo">Finder in China</div>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container" id="js_container">
 		<div class="inner">
 			<div class="content">
 
@@ -40,6 +40,6 @@
 </script></div>
 		</div>
 	</div>
-<div class="footer">Finder in China</div>
+<div class="footer" id="js_footer">Finder in China</div>
 </body>
 </html>

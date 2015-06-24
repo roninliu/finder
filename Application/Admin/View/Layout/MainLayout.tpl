@@ -11,7 +11,7 @@
 	</div>
 	<div class="container" id="js_container">
 		<div class="inner">
-			<div class="content">{__CONTENT__}</div>
+			{__CONTENT__}
 		</div>
 	</div>
 <include file="Public/Footer" />

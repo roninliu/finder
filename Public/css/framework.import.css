@@ -32,8 +32,7 @@ input[type=password] {
   border-radius: 4px;
 }
 input[type=button],
-button,
-.btn {
+button {
   display: inline-block;
   zoom: 1;
   height: 28px;
@@ -42,6 +41,55 @@ button,
   border-radius: 4px;
   border: 1px solid #ccc;
   background-color: #f2f2f2;
+}
+.btn {
+  border-radius: 4px;
+  display: inline-block;
+  border: none;
+  zoom: 1;
+  vertical-align: middle;
+  padding: 5px 15px;
+  text-align: center;
+}
+.btn-primary {
+  background: #e06d6a;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 12px;
+}
+.btn-primary:hover {
+  text-decoration: none;
+  background: #f08b88;
+}
+.model .model-hd {
+  background: #f9f9f9;
+  border-radius: 5px 0 0 0;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 10px;
+  overflow: hidden;
+  zoom: 1;
+}
+.model .model-hd:after {
+  font-size: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: '.';
+}
+.model .model-hd .model-hd-tools {
+  float: right;
+}
+.model .model-hd .model-hd-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.model .model-bd {
+  background: #fff;
+  border-radius: 0 0 0 5px;
+  padding: 10px;
+  font-size: 12px;
 }
 .header {
   background: #4d7496;
@@ -67,7 +115,36 @@ button,
   background: #6dadbd;
 }
 .container {
-  padding: 20px;
+  padding: 10px 0;
+}
+.container .nav {
+  float: left;
+  border-radius: 0 5px 5px 0;
+  overflow: hidden;
+  width: 180px;
+  border: 1px solid #d1d1d1;
+  background: #f9f9f9;
+}
+.container .nav li a {
+  display: block;
+  padding: 10px 20px;
+  color: #787878;
+  border-bottom: 1px solid #efefef;
+  border-top: 1px solid #f5f5f5;
+  font-size: 12px;
+}
+.container .nav li a:hover {
+  text-decoration: none;
+  background: #ffffff;
+}
+.container .content {
+  padding-left: 200px;
+}
+.container .content .main {
+  background: #f5f5f5;
+  border: 1px solid #d1d1d1;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
 }
 .footer {
   background-color: #090909;

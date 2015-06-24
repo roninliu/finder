@@ -30,3 +30,6 @@ body {
 .single-layout .login li button {
   margin-left: 100px;
 }
+.main-layout .lines {
+  padding: 10px;
+}
