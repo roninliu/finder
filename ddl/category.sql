@@ -1,22 +1,22 @@
 /*
- Navicat MySQL Data Transfer
+Navicat MySQL Data Transfer
 
- Source Server         : localhost
- Source Server Version : 50623
- Source Host           : localhost
- Source Database       : finder
+Source Server         : 本地链接
+Source Server Version : 50624
+Source Host           : localhost:3306
+Source Database       : finder
 
- Target Server Version : 50623
- File Encoding         : utf-8
+Target Server Type    : MYSQL
+Target Server Version : 50624
+File Encoding         : 65001
 
- Date: 06/29/2015 14:29:15 PM
+Date: 2015-06-29 17:45:25
 */
 
-SET NAMES utf8;
-SET FOREIGN_KEY_CHECKS = 0;
+SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
---  Table structure for `category`
+-- Table structure for category
 -- ----------------------------
 DROP TABLE IF EXISTS `category`;
 CREATE TABLE `category` (
@@ -28,10 +28,8 @@ CREATE TABLE `category` (
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
---  Records of `category`
+-- Records of category
 -- ----------------------------
-BEGIN;
-INSERT INTO `category` VALUES ('1', '自驾路线', '1', '-1'), ('2', '领队信息', '1', '-1'), ('3', '影像信息', '1', '-1');
-COMMIT;
-
-SET FOREIGN_KEY_CHECKS = 1;
+INSERT INTO `category` VALUES ('1', '自驾路线', '1', '-1');
+INSERT INTO `category` VALUES ('2', '领队信息', '1', '-1');
+INSERT INTO `category` VALUES ('3', '影像信息', '1', '-1');

@@ -20,6 +20,8 @@ define(function(require, exports, module) {
 				console.log(result);
 				if(result.code ==1003 ){
 					location.href = config.BASE_URL;
+				}else{
+					utils.alerts(result.msg);
 				}
 			}
 		})

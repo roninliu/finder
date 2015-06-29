@@ -14,11 +14,13 @@ class IndexController extends Controller {
 
 	public function index() {
 		$categoryService = D("Core/Category");
-		$nav = $categoryService -> getNavByParent("-1");
-		dump($nav);
-		$this->assign("dashbord", "selected");
+		$nav = $categoryService->getNavByParent("-1");
+		$this->assign("nav", $nav);
+		$this->assign("subName", $nav[0]["name"]);
+		$this->assign("info", "selected");
+		$this->assign("page", "信息管理");
 
-		$this->display("Dashbord/Main");
+		$this->display("Infomation/Main");
 	}
 	public function user() {
 		$login = A("Login");

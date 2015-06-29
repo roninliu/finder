@@ -42,6 +42,32 @@ input[type=button], button {
 	border: 1px solid #ccc;
 	background-color: #f2f2f2;
 }
+table.dataTable {
+	border: 1px solid #dee6ea;
+
+	&.no-footer {
+		border-bottom: 1px solid #dee6ea;
+	}
+	tr {
+		th,td{
+			padding: 15px 10px;
+			color: #8899aa;
+		}
+		background: #f4f7f8;
+
+		th {
+			
+			border-bottom: none;
+		}
+		td{
+			border-top: 1px solid #dee6ea;
+		}
+		&.even{
+			background: #e7fbf0;
+		
+		}
+	}
+}
 .btn {
 	border-radius: 4px;
 	display: inline-block;
@@ -56,20 +82,37 @@ input[type=button], button {
 	color: #fff;
 	padding: 8px 15px;
 	font-size: 12px;
+
 	&:hover {
 		text-decoration: none;
 		background: #f08b88;
 	}
 }
+.alerts {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -125px;
+	padding: 10px 20px;
+	background: #f95d1e;
+	border-radius: 0 0 5px 5px;
+	width: 250px;
+	color: #fff;
+	text-align: center;
+}
 .model {
+	border: 1px solid #d1d1d1;
+	border-radius: 5px;
+	overflow: hidden;
+
 	.model-hd {
 		background: #f9f9f9;
 		border-radius: 5px 0 0 0;
 		border-bottom: 1px solid #d1d1d1;
 		padding: 10px;
-		overflow: hidden;
-		zoom:1;
-		&:after{
+		zoom: 1;
+
+		&:after {
 			font-size: 0;
 			display: block;
 			visibility: hidden;
@@ -77,11 +120,11 @@ input[type=button], button {
 			height: 0;
 			content: '.';
 		}
-		.model-hd-tools{
+		.model-hd-tools {
 			float: right;
 		}
-		.model-hd-title{
-			font-size: 18px;
+		.model-hd-title {
+			font-size: 15px;
 			font-weight: 500;
 			line-height: 32px;
 		}
@@ -97,11 +140,12 @@ input[type=button], button {
 	overflow: hidden;
 	height: 53px;
 	background: #fff;
-	.page-name{
+
+	.page-name {
 		float: left;
-		font-size: 16px;
-		color:#334455;
-		line-height: 63px;
+		font-size: 18px;
+		color: #334455;
+		line-height: 53px;
 		margin-left: 20px;
 	}
 	.logo {
@@ -112,7 +156,6 @@ input[type=button], button {
 		text-indent: -999em;
 		color: #fff;
 		background: url(../images/logo.png) no-repeat center center #414550;
-
 	}
 	.menu {
 		float: right;
@@ -140,16 +183,15 @@ input[type=button], button {
 }
 .container {
 	background: #333742;
-	.inner{
+
+	.inner {
 		position: relative;
 		padding-left: 222px;
 	}
-	
-	
 	.nav {
 		position: absolute;
 		left: 0;
-		top:1px;
+		top: 1px;
 		float: left;
 		width: 222px;
 
@@ -160,8 +202,7 @@ input[type=button], button {
 				color: #8899aa;
 				font-size: 12px;
 
-				&:hover,
-				&.selected{
+				&:hover, &.selected {
 					color: #fff;
 					border-left: 2px solid #00a9e8;
 					text-decoration: none;
@@ -176,7 +217,6 @@ input[type=button], button {
 		padding: 10px;
 		border-top: 1px solid #b0b7bc;
 		height: 100%;
-		
 	}
 }
 .footer {

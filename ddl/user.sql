@@ -1,22 +1,22 @@
 /*
- Navicat MySQL Data Transfer
+Navicat MySQL Data Transfer
 
- Source Server         : localhost
- Source Server Version : 50623
- Source Host           : localhost
- Source Database       : finder
+Source Server         : 本地链接
+Source Server Version : 50624
+Source Host           : localhost:3306
+Source Database       : finder
 
- Target Server Version : 50623
- File Encoding         : utf-8
+Target Server Type    : MYSQL
+Target Server Version : 50624
+File Encoding         : 65001
 
- Date: 06/23/2015 09:52:12 AM
+Date: 2015-06-29 17:45:45
 */
 
-SET NAMES utf8;
-SET FOREIGN_KEY_CHECKS = 0;
+SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
---  Table structure for `user`
+-- Table structure for user
 -- ----------------------------
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
@@ -32,10 +32,7 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
---  Records of `user`
+-- Records of user
 -- ----------------------------
-BEGIN;
-INSERT INTO `user` VALUES ('1', 'ronin', 'admin', 'admin', 'admin@sd.com', null, '0', '0'), ('2', 'gues', 'admin2', 'admin', 'admin1@sid.com', '123456667', '1', '1');
-COMMIT;
-
-SET FOREIGN_KEY_CHECKS = 1;
+INSERT INTO `user` VALUES ('1', 'ronin', 'admin', 'admin', 'admin@sd.com', null, '0', '0');
+INSERT INTO `user` VALUES ('2', 'gues', 'admin2', 'admin', 'admin1@sid.com', '123456667', '1', '1');

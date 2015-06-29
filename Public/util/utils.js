@@ -10,7 +10,11 @@ define(function(require, exports, module) {
 
 
 	var _alertHandler = function(msg){
-		console.log(msg);
+		var _alertStr = '<div class="alerts"><i class="fa fa-bell-o fa-fw"></i>'+msg+'</div>';
+		$('body').append(_alertStr);
+		setInterval(function(){
+			$('body').find(".alerts").remove();
+		},5000)
 	}
 	/**
 	 * [verifyHandler description]

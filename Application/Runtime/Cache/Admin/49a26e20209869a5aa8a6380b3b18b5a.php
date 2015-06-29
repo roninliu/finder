@@ -20,9 +20,9 @@
 			<div class="logo">Finder in China</div>
 		</div>
 	</div>
-	<div class="container" id="js_container">
+	<div class="container">
 		<div class="inner">
-			<div class="content">
+			<div class="content" id="js_container">
 
 <div class="login">
 	<h1>用户登录</h1>

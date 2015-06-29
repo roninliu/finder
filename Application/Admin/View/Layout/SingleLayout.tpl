@@ -6,9 +6,9 @@
 			<div class="logo">Finder in China</div>
 		</div>
 	</div>
-	<div class="container" id="js_container">
+	<div class="container">
 		<div class="inner">
-			<div class="content">{__CONTENT__}</div>
+			<div class="content" id="js_container">{__CONTENT__}</div>
 		</div>
 	</div>
 <include file="Public/Footer" />

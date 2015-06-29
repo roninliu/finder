@@ -18,7 +18,7 @@ define(function(require, exports, module) {
 				"min-height": "400px"
 			});
 		} else {
-			var stamt = winSize - 110;
+			var stamt = winSize - 121;
 			container.css({
 				"min-height": stamt
 			});

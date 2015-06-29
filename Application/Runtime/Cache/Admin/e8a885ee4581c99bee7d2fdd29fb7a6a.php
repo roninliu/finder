@@ -28,17 +28,47 @@
 		<div class="inner">
 			<div class="nav">
 				<ul>
-					<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navItem): $mod = ($i % 2 );++$i;?><li><a href="" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+					<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navItem): $mod = ($i % 2 );++$i; if($i == 1): ?><li><a href="" class="selected" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li>
+						<?php else: ?>
+							<li><a href="" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
 				</ul>
 			</div>
 			<div class="content" id="js_container">
 			
-
-<h1>welcome!</h1>
-<p>欢迎使用Finder in China管理控制平台。</p>
+<script src="/finder/Public/lib/jquery.dataTables.min.js"></script>
+<div class="model">
+	<div class="model-hd">
+		<?php if(session('aid') < 3 ): ?><div class="model-hd-tools">
+			<a href="#" class="btn btn-primary">添加线路</a>
+		</div><?php endif; ?>
+		<h1 class="model-hd-title"><?php echo ($subName); ?></h1>
+	</div>
+	<div class="model-bd">
+		<div class="filter">111</div>
+		<div class="result">
+			<table id="js_linesList">
+				<thead>
+					<tr>
+						<th>线路名称</th>
+						<th>线路主题</th>
+						<th>出发地</th>
+						<th>目的地</th>
+						<th>自驾车程</th>
+						<th>自驾时长</th>
+						<th>报名限额</th>
+						<th>自驾费用</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
 <script>
-	seajs.use("/finder/Public/js/login", function(app) {
-		app.init();
+	seajs.use("/finder/Public/js/info", function(app) {
+		app.init(0);
 	})
 </script>
 			</div>
