@@ -3,32 +3,37 @@
 body {
   font-size: 14px;
 }
-.single-layout .inner {
-  min-width: 980px;
-  max-width: 1200px;
-  margin: 0 auto;
+.single-layout .header {
+  background: #2d3039;
 }
 .single-layout .login {
-  width: 600px;
+  width: 400px;
   margin: 0 auto;
   padding: 100px 0;
 }
 .single-layout .login h1 {
   min-width: 100px;
-  font-size: 14px;
-  padding: 5px 0;
+  font-size: 15px;
+  padding: 10px 5px;
   border-bottom: 1px solid #ccc;
 }
 .single-layout .login li {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .single-layout .login li label {
   display: inline-block;
-  min-width: 100px;
+  min-width: 75px;
   text-align: right;
 }
+.single-layout .login li input[type=text],
+.single-layout .login li input[type=password] {
+  min-width: 220px;
+}
 .single-layout .login li button {
-  margin-left: 100px;
+  margin-left: 75px;
+}
+.single-layout .container .content {
+  padding-left: 0;
 }
 .main-layout .lines {
   padding: 10px;

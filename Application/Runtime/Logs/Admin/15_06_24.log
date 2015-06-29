@@ -1926,3 +1926,193 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
 
+[ 2015-06-24T21:30:23+08:00 ] ::1 /finder/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Core\Service\UserService::findUser(), called in /Users/ronin/workspace/php/finder/Application/Admin/Controller/LoginController.class.php on line 8 and defined /Users/ronin/workspace/php/finder/Application/Core/Service/UserService.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: user /Users/ronin/workspace/php/finder/Application/Core/Service/UserService.class.php 第 9 行.
+SQL: SELECT * FROM `user` WHERE ( account='' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+
+[ 2015-06-24T21:30:42+08:00 ] ::1 /finder/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: lines /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/af1a97125854a17d18f5eed3b2ee176e.php 第 22 行.
+NOTIC: [8] Undefined variable: team /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/af1a97125854a17d18f5eed3b2ee176e.php 第 22 行.
+NOTIC: [8] Undefined variable: video /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/af1a97125854a17d18f5eed3b2ee176e.php 第 22 行.
+NOTIC: [8] Undefined variable: myself /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/af1a97125854a17d18f5eed3b2ee176e.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2015-06-24T21:30:43+08:00 ] ::1 /finder/index.php/lines
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: dashbord /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: team /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: video /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: myself /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2015-06-24T21:33:32+08:00 ] ::1 /finder/index.php/lines
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: dashbord /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: team /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: video /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: myself /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2015-06-24T21:34:02+08:00 ] ::1 /finder/index.php/lines
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: dashbord /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: team /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: video /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: myself /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2015-06-24T21:34:57+08:00 ] ::1 /finder/index.php/lines
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: dashbord /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: team /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: video /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: myself /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2015-06-24T21:36:06+08:00 ] ::1 /finder/index.php/lines
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: dashbord /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: team /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: video /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: myself /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2015-06-24T21:37:32+08:00 ] ::1 /finder/index.php/lines
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: dashbord /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: team /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: video /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+NOTIC: [8] Undefined variable: myself /Users/ronin/workspace/php/finder/Application/Runtime/Cache/Admin/8e178cadaedd5c559770d85a6effd365.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+

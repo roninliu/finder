@@ -1,8 +1,9 @@
 @charset 'utf-8';
 @import url('reset.import.css');
 @import url('font-awesome.min.css');
+@import url('jquery.dataTables.css');
 body {
-  background: #ececec;
+  background: #ffffff;
 }
 .icon {
   display: inline-block;
@@ -92,62 +93,83 @@ button {
   font-size: 12px;
 }
 .header {
-  background: #4d7496;
+  overflow: hidden;
+  height: 53px;
+  background: #fff;
+}
+.header .page-name {
+  float: left;
+  font-size: 16px;
+  color: #334455;
+  line-height: 63px;
+  margin-left: 20px;
 }
 .header .logo {
   float: left;
-  margin: 10px;
+  padding: 15px 20px;
+  width: 182px;
+  height: 23px;
+  text-indent: -999em;
   color: #fff;
+  background: url(../images/logo.png) no-repeat center center #414550;
 }
 .header .menu {
   float: right;
 }
 .header .menu .menu-item {
   display: inline-block;
-  padding: 10px 20px;
-  color: #fff;
+  padding: 17px 20px 18px 20px;
+  color: #334455;
 }
 .header .menu .menu-item:hover {
   text-decoration: none;
-  background: #6dadbd;
+  background: #24272f;
+  color: #fff;
+  padding: 17px 20px 10px 20px;
+  border-bottom: 8px solid #00a9e8;
 }
 .header .menu .menu-item.selected {
-  background: #6dadbd;
+  padding: 17px 20px 10px 20px;
+  border-bottom: 8px solid #00a9e8;
+  background: #24272f;
+  color: #fff;
 }
 .container {
-  padding: 10px 0;
+  background: #333742;
+}
+.container .inner {
+  position: relative;
+  padding-left: 222px;
 }
 .container .nav {
+  position: absolute;
+  left: 0;
+  top: 1px;
   float: left;
-  border-radius: 0 5px 5px 0;
-  overflow: hidden;
-  width: 180px;
-  border: 1px solid #d1d1d1;
-  background: #f9f9f9;
+  width: 222px;
 }
 .container .nav li a {
   display: block;
-  padding: 10px 20px;
-  color: #787878;
-  border-bottom: 1px solid #efefef;
-  border-top: 1px solid #f5f5f5;
+  padding: 10px 20px 10px 25px;
+  color: #8899aa;
   font-size: 12px;
 }
-.container .nav li a:hover {
+.container .nav li a:hover,
+.container .nav li a.selected {
+  color: #fff;
+  border-left: 2px solid #00a9e8;
   text-decoration: none;
-  background: #ffffff;
+  padding: 10px 20px 10px 23px;
+  background: #24272f;
 }
 .container .content {
-  padding-left: 200px;
-}
-.container .content .main {
-  background: #f5f5f5;
-  border: 1px solid #d1d1d1;
-  border-right: none;
-  border-radius: 5px 0 0 5px;
+  background: #fff;
+  padding: 10px;
+  border-top: 1px solid #b0b7bc;
+  height: 100%;
 }
 .footer {
-  background-color: #090909;
+  background-color: #2d3039;
   text-align: center;
   color: #fff;
   font-size: 12px;

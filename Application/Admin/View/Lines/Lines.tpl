@@ -1,14 +1,6 @@
 <layout name="Layout/MainLayout" />
 <script src="__ROOT__/Public/lib/jquery.dataTables.min.js"></script>
-<div class="nav">
-	<ul>
-		<li><a href="">全部线路</a></li>
-		<li><a href="">欢乐休闲</a></li>
-		<li><a href="">运动拓展</a></li>
-		<li><a href="">文化探访</a></li>
-		<li><a href="">游学习休</a></li>
-	</ul>
-</div>
+
 <div class="content">
 	<div class="main">
 		<div class="model">
@@ -23,7 +15,7 @@
 			<div class="model-bd">
 				<div class="filter">111</div>
 				<div class="result">
-					<table>
+					<table id="js_linesList">
 						<thead>
 							<tr>
 								<th>产品名称</th>
@@ -43,7 +35,7 @@
 	</div>
 </div>
 <script>
-	seajs.use("__ROOT__/Public/js/login", function(app) {
+	seajs.use("__ROOT__/Public/js/lines", function(app) {
 		app.init();
 	})
 </script>
