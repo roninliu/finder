@@ -10,13 +10,18 @@
 	</div>
 	<div class="container">
 		<div class="inner">
+			<if condition="session('?skey')">
+				<div class="userinfo">
+					当前用户：<php>echo session('nickname');</php>
+				</div>
+			</if>
 			<div class="nav">
 				<ul>
 					<volist name='nav' id='navItem'>
 						<if condition="$i eq 1">
-							<li><a href="" class="selected" data-id='{$navItem.id}' data-parent='{$navItem.c_id}'>{$navItem.name}</a></li>
+							<li><a href="__ROOT__/index.php/nav/id/{$navItem.id}" class="selected" data-id='{$navItem.id}' data-parent='{$navItem.c_id}'>{$navItem.name}</a></li>
 						<else/>
-							<li><a href="" data-id='{$navItem.id}' data-parent='{$navItem.c_id}'>{$navItem.name}</a></li>
+							<li><a href="__ROOT__/index.php/nav/id/{$navItem.id}" data-id='{$navItem.id}' data-parent='{$navItem.c_id}'>{$navItem.name}</a></li>
 						</if>
 					</volist>
 				</ul>

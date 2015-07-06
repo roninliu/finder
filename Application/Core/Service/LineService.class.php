@@ -3,12 +3,12 @@ namespace Core\Service;
 use Think\Model;
 
 class LineService extends Model {
-	public function findLinesByType($type) {
+	public function findLinesByType($map) {
 		$lineModel = M("Line");
-		if ($type != null) {
+		if ($map['type'] != null) {
 
 		} else {
-			$result = $lineModel->select();
+			$result = $lineModel->order($map["key"]." ". $map["sort"])->select();
 			return $result;
 		}
 

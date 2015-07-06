@@ -11,11 +11,18 @@ class IndexController extends Controller {
 			exit;
 		}
 	}
+	public function nav(){
+		$module = I("id");
+		dump($module);
+	}
 
 	public function index() {
 		$categoryService = D("Core/Category");
 		$nav = $categoryService->getNavByParent("-1");
+		$theme = $categoryService -> getNavByParent("1");
 		$this->assign("nav", $nav);
+		$this->assign("theme",$theme);
+		dump($nav);
 		$this->assign("subName", $nav[0]["name"]);
 		$this->assign("info", "selected");
 		$this->assign("page", "信息管理");
@@ -27,11 +34,28 @@ class IndexController extends Controller {
 		$login->init();
 	}
 
+	public function addLines(){
+		$lines = A("Lines");
+		$lines -> init();
+	}
+
+
+
+
+
+
+
+
+
+
+
 	public function lines() {
 		$this->assign("lines", "selected");
 		$this->assign("page", "全部线路");
 		$this->display("Lines/Lines");
 	}
+
+
 
 	public function team() {
 		$this->assign("team", "selected");

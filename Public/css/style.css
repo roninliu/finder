@@ -35,6 +35,12 @@ body {
 .single-layout .container .inner {
   padding-left: 0;
 }
-.main-layout .lines {
+.main-layout .info .filter {
   padding: 10px;
+}
+.main-layout .info .filter input[type=text] {
+  min-width: 200px;
+}
+.main-layout .info .filter select {
+  min-width: 150px;
 }

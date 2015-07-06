@@ -4,14 +4,19 @@ namespace Com\Utils;
 class Utils {
 	public function setSession($user) {
 
+		$isAdmin = false;
+
+		if($user["level"] > 1){
+			$isAdmin = true;
+		}
 		cookie('uid', $this->authcode($user["id"], "ENCODE", "SKEY"));
 		cookie('nickname', $this->authcode($user["nickname"], "ENCODE", "SKEY"));
-		cookie('aid', $this->authcode($user["level"], "ENCODE", "SKEY"));
+		cookie('isAdmin', $this->authcode($isAdmin, "ENCODE", "SKEY"));
 		cookie("skey", $this->authcode($user["id"] . $user["nickname"] . $user["level"], "ENCODE", "SKEY"));
 
 		session('uid', $this->authcode($user["id"], "ENCODE", "SKEY"));
-		session('nickname', $this->authcode($user["nickname"], "ENCODE", "SKEY"));
-		session('aid', $this->authcode($user["level"], "ENCODE", "SKEY"));
+		session('nickname', $user["nickname"]);
+		session('isAdmin', $this->authcode($isAdmin, "ENCODE", "SKEY"));
 		session("skey", $this->authcode($user["id"] . $user["nickname"] . $user["level"], "ENCODE", "SKEY"));
 		if (cookie('skey') != null && session("?skey")) {
 			return true;

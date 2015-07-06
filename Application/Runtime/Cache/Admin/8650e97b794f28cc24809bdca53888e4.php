@@ -18,24 +18,22 @@
 	<div class="header" id="js_header">
 		<div class="inner">
 			<div class="logo">Finder in China</div>
-			<div class="page-name"><i class="fa fa-align-justify fa-fw"></i>用户管理</div>
+			<div class="page-name"><i class="fa fa-align-justify fa-fw"></i><?php echo ($page); ?></div>
 			<div class="menu">
-	<a href="/finder/index.php" class="menu-item <?php echo ($dashbord); ?>">信息管理</a><a href="/finder/index.php/lines" class="menu-item <?php echo ($lines); ?>">用户管理</a><a href="/finder/index.php/team" class="menu-item <?php echo ($team); ?>">消息中心</a><a href="/finder/index.php/video" class="menu-item <?php echo ($video); ?>">个人中心</a><a href="/finder/index.php/myself" class="menu-item <?php echo ($myself); ?>">退出系统</a>
+	<a href="/finder/index.php" class="menu-item <?php echo ($info); ?>">信息管理</a><a href="/finder/index.php/lines" class="menu-item <?php echo ($user); ?>">用户管理</a><a href="/finder/index.php/team" class="menu-item <?php echo ($message); ?>">消息中心</a><a href="/finder/index.php/video" class="menu-item <?php echo ($myself); ?>">个人中心</a><a href="/finder/index.php/myself" class="menu-item">退出系统</a>
 </div>
 		</div>
 	</div>
-	<div class="container" id="js_container">
+	<div class="container">
 		<div class="inner">
 			<div class="nav">
 				<ul>
-					<li><a href="">全部线路</a></li>
-					<li><a href="">欢乐休闲</a></li>
-					<li><a href="">运动拓展</a></li>
-					<li><a href="">文化探访</a></li>
-					<li><a href="">游学习休</a></li>
+					<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navItem): $mod = ($i % 2 );++$i; if($i == 1): ?><li><a href="" class="selected" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li>
+						<?php else: ?>
+							<li><a href="" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
 				</ul>
 			</div>
-			<div class="content">
+			<div class="content" id="js_container">
 			
 
 lines

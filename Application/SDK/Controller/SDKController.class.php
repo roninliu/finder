@@ -4,6 +4,9 @@ use Think\Controller;
 
 class SDKController extends Controller {
 
+	
+
+
 	public function doLogin() {
 		$user = array(
 			'account' => I("username"),
@@ -17,8 +20,14 @@ class SDKController extends Controller {
 	public function getLinesByType() {
 		$lineService = D("Core/Line");
 		$type = I("type");
-
-		$result = $lineService->findLinesByType($type);
+		$sortKey = $this->getSortKey(I("iSortCol_0"));
+		$sortType = I("sSortDir_0");
+		$param = array(
+			'type' => $type,
+			'key' => $sortKey,
+			'sort' =>$sortType
+		);
+		$result = $lineService->findLinesByType($param);
 		if ($result != null) {
 			$json = array(
 				'sEcho' => I("sEcho"),
@@ -29,5 +38,21 @@ class SDKController extends Controller {
 			$this->ajaxReturn($json);
 		}
 
+	}
+
+	private function getSortKey($sort){
+		$keyList = array(
+			'0' => "id",
+			'1' => "title",
+			'2' => "theme",
+			'3' => "start",
+			'4' => "end",
+			'5' => "distance",
+			'6' => "places",
+			'7' => "leader",
+			'8' => "price",
+		);
+		return $keyList[$sort];
+		
 	}
 }

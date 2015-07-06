@@ -38,6 +38,10 @@ define(function(require, exports, module) {
 			"sZeroRecords": "没有检索到数据",
 			"sAjaxSource": config.SDK_URL+ "getLinesByType",
 			"columns": [{
+				"data":"id",
+				"bVisible":false
+			},
+			{
 				"data": "title",
 			}, {
 				"data": "theme",
@@ -121,10 +125,18 @@ define(function(require, exports, module) {
 		_initLineTableHandler();
 	}
 
+	
+	var _initAddLinesHandler = function(){
+		
+	}
+
 	exports.init = function(module) {
 		switch (module) {
 			case 0:
 				_initLinesHandler();
+			break;
+			case 1:
+				_initAddLinesHandler();
 			break;
 		}
 	}
