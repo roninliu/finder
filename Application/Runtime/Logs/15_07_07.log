@@ -1,0 +1,143 @@
+[ 2015-07-07T09:02:20+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436230940484
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0292s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-07T09:03:38+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0002s ]
+
+[ 2015-07-07T09:03:38+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436231018339
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2015-07-07T09:05:31+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436231131498
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-07T09:06:53+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436231212895
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2015-07-07T09:07:37+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436231257777
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-07T20:41:02+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1760s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0671s ]
+
+[ 2015-07-07T20:41:03+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436272862772
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0386s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-07T20:55:53+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE ( account='' and password='' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-07-07T20:56:01+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE ( account='' and password='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T20:56:06+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE ( account='' and password='' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-07-07T20:57:16+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE ( account='' and password='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T20:58:25+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-07-07T21:17:20+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='123' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T21:17:29+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T21:22:46+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='admi n' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-07-07T21:22:53+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T21:26:39+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T21:29:21+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T21:29:35+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='admi1' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T21:29:55+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin2' and password='admi1' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T21:29:59+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin2' and password='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-07-07T21:30:35+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin2' and password='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T21:30:49+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin2' and password='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T21:30:54+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='112' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T21:30:55+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='112' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T21:31:07+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-07T21:35:43+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-07-07T22:29:26+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436279365754
+ERR: 非法操作:getLinesByType
+

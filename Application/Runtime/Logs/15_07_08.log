@@ -1,0 +1,380 @@
+[ 2015-07-08T21:29:34+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1651s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='admin' ) LIMIT 1   [ RunTime:0.0551s ]
+
+[ 2015-07-08T21:29:44+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362184507
+ERR: 非法操作:getLinesByType
+
+[ 2015-07-08T21:29:55+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362195240
+ERR: 非法操作:getLinesByType
+
+[ 2015-07-08T21:30:28+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362228463
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0920s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0184s ]
+
+[ 2015-07-08T21:30:31+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=2&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=4&sSortDir_0=asc&iSortingCols=1&_=1436362228464
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `line` ORDER BY end asc  [ RunTime:0.0775s ]
+
+[ 2015-07-08T21:30:32+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=3&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=4&sSortDir_0=desc&iSortingCols=1&_=1436362228465
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `line` ORDER BY end desc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:31:49+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362309267
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T21:32:00+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362320468
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:32:36+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362356041
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T21:34:23+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362463377
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0271s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:34:24+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362464615
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T21:34:39+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362478873
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T21:35:05+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362505158
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:36:05+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362565742
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T21:38:43+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362723195
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2015-07-08T21:39:09+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362749045
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T21:39:26+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362766038
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:39:37+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362777255
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0194s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T21:39:53+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362793037
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:42:07+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362926994
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T21:42:22+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362942795
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0254s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T21:42:38+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436362958367
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T21:43:52+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363032419
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2015-07-08T21:44:14+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363054522
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T21:44:55+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363095052
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:45:41+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363141254
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:45:51+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363151400
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:46:01+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363161368
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:47:48+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363268794
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2015-07-08T21:48:27+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363307255
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:48:41+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363321315
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:52:21+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363541582
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:53:22+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363602269
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T21:54:20+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363659869
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2015-07-08T21:54:36+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363676304
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:54:37+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363677430
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T21:54:41+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363681758
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:55:53+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363753471
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T21:56:28+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436363787818
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T22:06:33+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436364393519
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:06:41+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436364401419
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2015-07-08T22:07:06+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436364426184
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0005s ]
+
+[ 2015-07-08T22:07:09+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436364428915
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:07:13+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436364433289
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:07:51+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436364471268
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T22:07:58+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436364478106
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:10:09+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436364609327
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:10:40+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436364639922
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:10:45+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436364645544
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:12:20+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436364740490
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:17:14+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436365034772
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:21:53+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436365313076
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.1202s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.1103s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2015-07-08T22:22:08+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436365328227
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0329s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:23:03+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436365383491
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0005s ]
+
+[ 2015-07-08T22:23:04+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436365384571
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:33:13+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436365993225
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:35:27+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436366127010
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0780s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0006s ]
+
+[ 2015-07-08T22:35:53+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436366152782
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:36:40+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436366200259
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0020s ]
+
+[ 2015-07-08T22:38:33+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436366312782
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T22:38:41+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436366321471
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:38:46+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436366326115
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0009s ]
+
+[ 2015-07-08T22:41:33+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436366493301
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2015-07-08T22:42:20+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436366540067
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0011s ]
+
+[ 2015-07-08T22:43:29+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436366609307
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T22:43:58+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436366638315
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2015-07-08T22:45:18+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436366717880
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-08T22:56:29+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+NOTIC: D方法实例化没找到模型类Core\Service\CategroyService
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finder.categroy' doesn't exist
+
+[ 2015-07-08T22:57:26+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0004s ]
+
+[ 2015-07-08T22:58:01+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0003s ]
+
+[ 2015-07-08T23:01:02+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-08T23:02:02+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0003s ]
+
+[ 2015-07-08T23:04:02+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0004s ]
+
+[ 2015-07-08T23:04:35+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0003s ]
+
+[ 2015-07-08T23:09:32+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436368171812
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2015-07-08T23:09:36+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436368176854
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-08T23:35:34+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436369733853
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+

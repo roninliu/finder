@@ -4,10 +4,11 @@
 	<div class="model-hd">
 		<if condition="session('isAdmin')">
 		<div class="model-hd-tools">
-			<a href="__ROOT__/index.php/addlines" class="btn btn-primary">添加线路</a>
+			<a href="__ROOT__/index.php/info/add/type/line/id/{$current['id']}" class="btn btn-primary">添加线路</a>
+			<a href="__ROOT__/index.php/info/add/type/categroy/id/{$current['id']}" class="btn btn-primary">添加主题</a>
 		</div>
 		</if>
-		<h1 class="model-hd-title">{$subName}</h1>
+		<h1 class="model-hd-title">{$current['name']}</h1>
 	</div>
 	<div class="model-bd">
 		<div class="filter">

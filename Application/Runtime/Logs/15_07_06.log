@@ -1,0 +1,55 @@
+[ 2015-07-06T23:01:06+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0002s ]
+
+[ 2015-07-06T23:01:14+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0002s ]
+
+[ 2015-07-06T23:01:47+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0662s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0014s ]
+
+[ 2015-07-06T23:06:13+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0003s ]
+
+[ 2015-07-06T23:06:50+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0003s ]
+
+[ 2015-07-06T23:15:59+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0004s ]
+
+[ 2015-07-06T23:17:22+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0002s ]
+
+[ 2015-07-06T23:17:58+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' )  [ RunTime:0.0002s ]
+
+[ 2015-07-06T23:22:26+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436196146081
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.1527s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0290s ]
+
+[ 2015-07-06T23:22:48+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436196168682
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2015-07-06T23:23:14+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436196194345
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+

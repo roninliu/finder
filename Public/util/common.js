@@ -25,9 +25,8 @@ define(function(require, exports, module) {
 		}
 	}
 
-
-
+	_initSizeHandler();
 	module.exports = {
-		init: _initSizeHandler
+		//init: _initSizeHandler
 	}
 })

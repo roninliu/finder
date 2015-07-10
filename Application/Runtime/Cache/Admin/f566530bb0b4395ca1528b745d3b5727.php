@@ -19,21 +19,29 @@
 		<div class="inner">
 			<div class="logo">Finder in China</div>
 			<div class="page-name"><i class="fa fa-align-justify fa-fw"></i><?php echo ($page); ?></div>
-			<div class="menu">
-	<a href="/finder/index.php" class="menu-item <?php echo ($dashbord); ?>">Dashbord</a><a href="/finder/index.php/info" class="menu-item <?php echo ($info); ?>">信息管理</a><a href="/finder/index.php/user" class="menu-item <?php echo ($user); ?>">用户管理</a><a href="/finder/index.php/message" class="menu-item <?php echo ($message); ?>">消息中心</a><a href="/finder/index.php/myself" class="menu-item <?php echo ($myself); ?>">个人中心</a><a href="/finder/index.php/logout" class="menu-item">退出系统</a>
+			<div class="menus">
+	<div class="menu">
+	<a href="/finder/index.php" class="menu-item <?php echo ($dashbord); ?>">Dashbord</a><a href="/finder/index.php/info" class="menu-item <?php echo ($info); ?>">信息管理</a><a href="/finder/index.php/user" class="menu-item <?php echo ($user); ?>">用户管理</a><a href="/finder/index.php/message" class="menu-item <?php echo ($message); ?>">消息中心</a><a href="/finder/index.php/myself" class="menu-item <?php echo ($myself); ?>">个人中心</a>
+	</div>
+	<div class="user">
+		<span><i class="fa fa-user fa-fw"></i> 当前用户：<?php echo session('nickname'); ?></span> | <a href="/finder/index.php/logout" class="menu-item">退出系统</a>
+	</div>
 </div>
 		</div>
 	</div>
 	<div class="container">
 		<div class="inner">
-			<?php if(session('?skey')): ?><div class="userinfo">
-					当前用户：<?php echo session('nickname'); ?>
-				</div><?php endif; ?>
 			<div class="nav">
+				<?php if($isDashbord): ?><div class="quick">快捷方式</div><?php endif; ?>
 				<ul>
-					<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navItem): $mod = ($i % 2 );++$i; if($i == 1): ?><li><a href="/finder/index.php/nav/id/<?php echo ($navItem["id"]); ?>" class="selected" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li>
+					<?php if($isDashbord): ?><li><a href="/finder/index.php">kuais</a></li>
+						<li><a href="/finder/index.php">kuais</a></li>
+						<li><a href="/finder/index.php">kuais</a></li>
+						<li><a href="/finder/index.php">kuais</a></li>
+					<?php else: ?>
+						<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navItem): $mod = ($i % 2 );++$i; if($i == 1): ?><li><a href="/finder/index.php/<?php echo ($module); ?>/categroy/id/<?php echo ($navItem["id"]); ?>" class="selected" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li>
 						<?php else: ?>
-							<li><a href="/finder/index.php/nav/id/<?php echo ($navItem["id"]); ?>" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+							<li><a href="/finder/index.php/<?php echo ($module); ?>/categroy/id/<?php echo ($navItem["id"]); ?>" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; endif; ?>
 				</ul>
 			</div>
 			<div class="content" id="js_container">
@@ -42,9 +50,10 @@
 <div class="model info">
 	<div class="model-hd">
 		<?php if(session('isAdmin')): ?><div class="model-hd-tools">
-			<a href="/finder/index.php/addlines" class="btn btn-primary">添加线路</a>
+			<a href="/finder/index.php/info/add/type/line/id/<?php echo ($current['id']); ?>" class="btn btn-primary">添加线路</a>
+			<a href="/finder/index.php/info/add/type/categroy/id/<?php echo ($current['id']); ?>" class="btn btn-primary">添加主题</a>
 		</div><?php endif; ?>
-		<h1 class="model-hd-title"><?php echo ($subName); ?></h1>
+		<h1 class="model-hd-title"><?php echo ($current['name']); ?></h1>
 	</div>
 	<div class="model-bd">
 		<div class="filter">

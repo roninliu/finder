@@ -46,10 +46,30 @@
 			</div>
 			<div class="content" id="js_container">
 			
-<div class="dashbord">111</div>
+<div class="model info">
+	<div class="model-hd">
+		<h1 class="model-hd-title" id="js_title" data-parentid="<?php echo ($current["id"]); ?>">新建自驾主题</h1>
+	</div>
+	<div class="model-bd">
+		<div class="hform">
+			<ul>
+				<li><label for="" class="form-title">主题名称：</label><label for="" class="form-content"><input type="text" class="w-150" placeholder="请输入主题名称"></label></li>
+				<li><label for="" class="form-content"><a href="#" class="btn btn-primary">确定</a></label></li>
+			</ul>
+		</div>
+		<div class="categroy-list">
+			<div class="list-title">已有主题</div>
+			<div class="list-content">
+				<ul id="js_theme_list">
+					<li></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
 <script>
-	seajs.use("/finder/Public/js/dashbord", function(app) {
-		app.init(0);
+	seajs.use("/finder/Public/js/info.add.categroy", function(app) {
+		app.init();
 	})
 </script>
 			</div>

@@ -51,10 +51,33 @@ define(function(require, exports, module) {
 		return _isFlag;
 	}
 
+	/**
+	 * [_loadingHandler description]
+	 * @param  {[type]} bStatus [description]
+	 * @return {[type]}         [description]
+	 */
+	var _loadingHandler = function(bStatus){
+		var _str = '<div id="js_utils_loading" class="loading"><p><i class="fa fa-spinner fa-pulse"></i> 正在加载......</p></div>';
+		if(arguments[1] != null){
+			if(bStatus){
+				$(arguments[1]).css("position","relative");
+				$(arguments[1]).append(_str);
+			}else{
+				$(arguments[1]).find(".loading").remove();
+			}
+		}else{
+			if(bStatus){
+				$("body").append(_str);
+			}else{
+				$('body').find(".loading").remove();
+			}
+		}
+	}
 
 	module.exports = {
 		verify: _verifyHandler,
 		alerts:_alertHandler,
+		loader:_loadingHandler,
 		STRING: _STRING,
 		EMAIL: _EMAIL,
 		PHONE: _PHONE,

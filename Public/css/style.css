@@ -44,3 +44,26 @@ body {
 .main-layout .info .filter select {
   min-width: 150px;
 }
+.main-layout .info .categroy-list {
+  border-top: 1px solid #d1d1d1;
+  padding: 0 0 10px 0;
+  margin-top: 10px;
+}
+.main-layout .info .categroy-list .list-title {
+  font-size: 14px;
+  color: #00a9e8;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+.main-layout .info .categroy-list .list-content {
+  padding: 10px;
+  min-height: 240px;
+}
+.main-layout .info .categroy-list .list-content .category-item {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-top: 10px;
+}

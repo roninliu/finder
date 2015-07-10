@@ -4,9 +4,6 @@ use Think\Controller;
 
 class SDKController extends Controller {
 
-	
-
-
 	public function doLogin() {
 		$user = array(
 			'account' => I("username"),
@@ -25,7 +22,7 @@ class SDKController extends Controller {
 		$param = array(
 			'type' => $type,
 			'key' => $sortKey,
-			'sort' =>$sortType
+			'sort' => $sortType,
 		);
 		$result = $lineService->findLinesByType($param);
 		if ($result != null) {
@@ -40,7 +37,29 @@ class SDKController extends Controller {
 
 	}
 
-	private function getSortKey($sort){
+	public function getCategroyListByParent() {
+		$parent = I("parent");
+		$categroyService = D("Core/Category");
+		$result = $categroyService->getNavByParent($parent);
+
+		if ($result != null && count($result) != 0) {
+			$json = array(
+				'code' => 1,
+				'msg' => '操作成功',
+				'data' => $result,
+			);
+			$this->ajaxReturn($json);
+		} else {
+			$json = array(
+				'code' => 0,
+				'msg' => '操作失败',
+				'data' => array(),
+			);
+			$this->ajaxReturn($json);
+		}
+	}
+
+	private function getSortKey($sort) {
 		$keyList = array(
 			'0' => "id",
 			'1' => "title",
@@ -53,6 +72,6 @@ class SDKController extends Controller {
 			'8' => "price",
 		);
 		return $keyList[$sort];
-		
+
 	}
 }

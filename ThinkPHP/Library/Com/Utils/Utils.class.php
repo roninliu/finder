@@ -2,25 +2,29 @@
 namespace Com\Utils;
 
 class Utils {
-	public function setSession($user) {
+	public function setStorage($user) {
+		if($user != null){
+			$isAdmin = false;
+			$uid = $this->authcode($user["id"], "ENCODE", "SKEY",3600);
+			$skey = $this->authcode($user["id"] . $user["nickname"] . $user["level"], "ENCODE", "SKEY",3600);
+			if($user["level"] == 0){
+				$isAdmin = true;
+			}
+			cookie('uid', $uid);
+			cookie('isAdmin', $isAdmin);
+			cookie("skey", $skey);
+			session('uid', $uid);
+			session("nickname",$user["nickname"]);
+			session('isAdmin', $isAdmin);
+			session("skey", $skey);
 
-		$isAdmin = false;
+			if (cookie('skey') != null && session("?skey")) {
+				return true;
+			} else {
+				return false;
+			}
 
-		if($user["level"] > 1){
-			$isAdmin = true;
-		}
-		cookie('uid', $this->authcode($user["id"], "ENCODE", "SKEY"));
-		cookie('nickname', $this->authcode($user["nickname"], "ENCODE", "SKEY"));
-		cookie('isAdmin', $this->authcode($isAdmin, "ENCODE", "SKEY"));
-		cookie("skey", $this->authcode($user["id"] . $user["nickname"] . $user["level"], "ENCODE", "SKEY"));
-
-		session('uid', $this->authcode($user["id"], "ENCODE", "SKEY"));
-		session('nickname', $user["nickname"]);
-		session('isAdmin', $this->authcode($isAdmin, "ENCODE", "SKEY"));
-		session("skey", $this->authcode($user["id"] . $user["nickname"] . $user["level"], "ENCODE", "SKEY"));
-		if (cookie('skey') != null && session("?skey")) {
-			return true;
-		} else {
+		}else{
 			return false;
 		}
 	}

@@ -10,20 +10,25 @@
 	</div>
 	<div class="container">
 		<div class="inner">
-			<if condition="session('?skey')">
-				<div class="userinfo">
-					当前用户：<php>echo session('nickname');</php>
-				</div>
-			</if>
 			<div class="nav">
+				<if condition="$isDashbord">
+					<div class="quick">快捷方式</div>
+				</if>
 				<ul>
-					<volist name='nav' id='navItem'>
+					<if condition="$isDashbord">
+						<li><a href="__ROOT__/index.php">kuais</a></li>
+						<li><a href="__ROOT__/index.php">kuais</a></li>
+						<li><a href="__ROOT__/index.php">kuais</a></li>
+						<li><a href="__ROOT__/index.php">kuais</a></li>
+					<else/>
+						<volist name='nav' id='navItem'>
 						<if condition="$i eq 1">
-							<li><a href="__ROOT__/index.php/nav/id/{$navItem.id}" class="selected" data-id='{$navItem.id}' data-parent='{$navItem.c_id}'>{$navItem.name}</a></li>
+							<li><a href="__ROOT__/index.php/{$module}/categroy/id/{$navItem.id}" class="selected" data-id='{$navItem.id}' data-parent='{$navItem.c_id}'>{$navItem.name}</a></li>
 						<else/>
-							<li><a href="__ROOT__/index.php/nav/id/{$navItem.id}" data-id='{$navItem.id}' data-parent='{$navItem.c_id}'>{$navItem.name}</a></li>
+							<li><a href="__ROOT__/index.php/{$module}/categroy/id/{$navItem.id}" data-id='{$navItem.id}' data-parent='{$navItem.c_id}'>{$navItem.name}</a></li>
 						</if>
 					</volist>
+					</if>
 				</ul>
 			</div>
 			<div class="content" id="js_container">

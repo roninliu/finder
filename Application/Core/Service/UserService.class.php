@@ -6,59 +6,37 @@ class UserService extends Model {
 
 	public function findUser($user) {
 		$userModel = M("User");
-		$result = $userModel->where("account='" . $user['account'] . "'")->select();
-
-		if ($result != null) {
-			$isFlag = false;
-			$loginUser = null;
-			for ($i = 0; $i < count($result); $i++) {
-				if ($user["password"] == $result[$i]["password"]) {
-					$loginUser = $result[$i];
-					$isFlag = true;
-					break;
-				} else {
-					$isFlag = false;
-				}
-			}
-			if ($isFlag) {
-				if ($loginUser["enabled"] == 1) {
-					return array(
-						"code" => 1001,
-						"msg" => "账户已过期！",
-						'status' => "fail",
-					);
-				} else {
-					$utils = new \Com\Utils\Utils();
-					$status = $utils->setSession($loginUser);
-					if ($status) {
-						return array(
-							"code" => 1003,
-							"msg" => "登录成功！",
-							'status' => "success",
-						);
-					} else {
-						return array(
-							"code" => 1005,
-							'status' => "fail",
-							"msg" => "服务器异常",
-						);
-					}
-				}
-			} else {
+		$result = $userModel->where("account='".$user["account"]."' and password='".$user["password"]."'")->find();
+		if($result != null){
+			if($result["enabled"] == 1){
 				return array(
-					"code" => 1002,
-					"msg" => "密码不正确!",
+					'code' => 0,
 					'status' => "fail",
+					'msg' => "账户已经禁用，请联系管理员!" 
 				);
+			}else{
+				$utils = new \Com\Utils\Utils();
+				$storage = $utils->setStorage($result);
+				if($storage){
+					return array(
+						'code' => 1,
+						'status' => "success",
+						'msg' => "登录成功!" 
+					);
+				}else{
+					return array(
+						'code' => 0,
+						'status' => "fail",
+						'msg' => "登录失败!" 
+					);
+				}
 			}
-		} else {
+		}else{
 			return array(
-				"code" => 1000,
-				"msg" => "用户不存在！",
+				'code' => 0,
 				'status' => "fail",
+				'msg' => "用户名或密码错误!" 
 			);
 		}
-
-		return $json;
 	}
 }

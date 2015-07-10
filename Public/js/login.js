@@ -18,8 +18,8 @@ define(function(require, exports, module) {
 			},
 			success:function(result){
 				console.log(result);
-				if(result.code ==1003 ){
-					location.href = config.BASE_URL;
+				if(result.code != 0 ){
+					window.location.href = config.BASE_URL;
 				}else{
 					utils.alerts(result.msg);
 				}
@@ -43,7 +43,6 @@ define(function(require, exports, module) {
 	}
 
 	exports.init = function() {
-		common.init();
 		$("#js_login").click(function() {
 			_loginHandler(this);
 		})

@@ -19,41 +19,46 @@
 		<div class="inner">
 			<div class="logo">Finder in China</div>
 			<div class="page-name"><i class="fa fa-align-justify fa-fw"></i><?php echo ($page); ?></div>
-			<div class="menu">
-	<a href="/finder/index.php" class="menu-item <?php echo ($info); ?>">信息管理</a><a href="/finder/index.php/lines" class="menu-item <?php echo ($user); ?>">用户管理</a><a href="/finder/index.php/team" class="menu-item <?php echo ($message); ?>">消息中心</a><a href="/finder/index.php/video" class="menu-item <?php echo ($myself); ?>">个人中心</a><a href="/finder/index.php/myself" class="menu-item">退出系统</a>
+			<div class="menus">
+	<div class="menu">
+	<a href="/finder/index.php" class="menu-item <?php echo ($dashbord); ?>">Dashbord</a><a href="/finder/index.php/info" class="menu-item <?php echo ($info); ?>">信息管理</a><a href="/finder/index.php/user" class="menu-item <?php echo ($user); ?>">用户管理</a><a href="/finder/index.php/message" class="menu-item <?php echo ($message); ?>">消息中心</a><a href="/finder/index.php/myself" class="menu-item <?php echo ($myself); ?>">个人中心</a>
+	</div>
+	<div class="user">
+		<span><i class="fa fa-user fa-fw"></i> 当前用户：<?php echo session('nickname'); ?></span> | <a href="/finder/index.php/logout" class="menu-item">退出系统</a>
+	</div>
 </div>
 		</div>
 	</div>
 	<div class="container">
 		<div class="inner">
-			<?php if(session('?skey')): ?><div class="userinfo">
-					当前用户：<?php echo session('nickname'); ?>
-				</div><?php endif; ?>
 			<div class="nav">
+				<?php if($isDashbord): ?><div class="quick">快捷方式</div><?php endif; ?>
 				<ul>
-					<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navItem): $mod = ($i % 2 );++$i; if($i == 1): ?><li><a href="/finder/index.php/nav/id/<?php echo ($navItem["id"]); ?>" class="selected" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li>
+					<?php if($isDashbord): ?><li><a href="/finder/index.php">kuais</a></li>
+						<li><a href="/finder/index.php">kuais</a></li>
+						<li><a href="/finder/index.php">kuais</a></li>
+						<li><a href="/finder/index.php">kuais</a></li>
+					<?php else: ?>
+						<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navItem): $mod = ($i % 2 );++$i; if($i == 1): ?><li><a href="/finder/index.php/<?php echo ($module); ?>/categroy/id/<?php echo ($navItem["id"]); ?>" class="selected" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li>
 						<?php else: ?>
-							<li><a href="/finder/index.php/nav/id/<?php echo ($navItem["id"]); ?>" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+							<li><a href="/finder/index.php/<?php echo ($module); ?>/categroy/id/<?php echo ($navItem["id"]); ?>" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; endif; ?>
 				</ul>
 			</div>
 			<div class="content" id="js_container">
 			
 <div class="model info">
 	<div class="model-hd">
-		<h1 class="model-hd-title"><?php echo ($subName); ?></h1>
+		<h1 class="model-hd-title">新建自驾线路</h1>
 	</div>
 	<div class="model-bd">
-		<div class="filter">
-			<ul class="vform">
-				<li><label for="" class="form-title">自驾线路名称：</label><label for="" class="form-content"><input type="text" placeholder="请输入自驾线路名称"></label></li>
-				<li><label for="" class="form-title">选择自驾主题：</label><label for="" class="form-content"><select name="" id="">
-					<?php if(is_array($theme)): $i = 0; $__LIST__ = $theme;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$themeItem): $mod = ($i % 2 );++$i;?><option value="<?php echo ($themeItem["id"]); ?>" data-parent="<?php echo ($themeItem["c_id"]); ?>"><?php echo ($themeItem["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
-				</select></label></li>
-				<li><label for="" class="form-title">关键字搜索：</label><label for="" class="form-content"><input type="text" placeholder="请输入关键字"></label></li>
-				<li><label for="" class="form-content"><a href="#" class="btn btn-primary">搜索</a></label></li>
+		<div class="vform">
+			<ul>
+				<li><label for="" class="form-title">路线名称：</label><label for="" class="form-content"><input type="text" placeholder="请输入关键字"></label></li>
+				<li><label for="" class="form-title">路线主题：</label><label for="" class="form-content"></label></li>
+				<li><label for="" class="form-title">出发城市：</label><label for="" class="form-content"></label></li>
+				<li><label for="" class="form-title">线路详情：</label><label for="" class="form-content"></label></li>
 			</ul>
 		</div>
-		
 	</div>
 </div>
 <script>

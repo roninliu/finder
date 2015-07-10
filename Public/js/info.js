@@ -6,7 +6,6 @@ define(function(require, exports, module) {
 	var utils = require("../util/utils");
 	var config = require("../util/config");
 	var common = require("../util/common");
-	common.init();
 
 	var _lineTable = null;
 
