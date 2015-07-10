@@ -1,22 +1,22 @@
 /*
-Navicat MySQL Data Transfer
+ Navicat MySQL Data Transfer
 
-Source Server         : 本地链接
-Source Server Version : 50624
-Source Host           : localhost:3306
-Source Database       : finder
+ Source Server         : localhost
+ Source Server Version : 50623
+ Source Host           : localhost
+ Source Database       : finder
 
-Target Server Type    : MYSQL
-Target Server Version : 50624
-File Encoding         : 65001
+ Target Server Version : 50623
+ File Encoding         : utf-8
 
-Date: 2015-06-29 17:45:39
+ Date: 07/10/2015 10:56:35 AM
 */
 
-SET FOREIGN_KEY_CHECKS=0;
+SET NAMES utf8;
+SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
--- Table structure for line
+--  Table structure for `line`
 -- ----------------------------
 DROP TABLE IF EXISTS `line`;
 CREATE TABLE `line` (
@@ -37,7 +37,10 @@ CREATE TABLE `line` (
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
--- Records of line
+--  Records of `line`
 -- ----------------------------
-INSERT INTO `line` VALUES ('1', '21asdas', 'asdasd', 'asdas', 'sada', 'sasd', 'asd', 'asdasd', 'asdasd', '123', '123', '12', 'asdasd');
-INSERT INTO `line` VALUES ('2', '标题', '主题', '标签出发地', '触发滴', '目的滴', '距离', '行程', '交通', '1203', '12', '1', '服务机构');
+BEGIN;
+INSERT INTO `line` VALUES ('1', '21asdas', 'asdasd', 'asdas', 'sada', 'sasd', 'asd', 'asdasd', 'asdasd', '123', '123', '12', 'asdasd'), ('2', '标题', '主题', '标签出发地', '触发滴', '目的滴', '距离', '行程', '交通', '1203', '12', '1', '服务机构');
+COMMIT;
+
+SET FOREIGN_KEY_CHECKS = 1;
