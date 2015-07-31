@@ -1,0 +1,507 @@
+[ 2015-07-31T08:39:14+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0229s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='admin' ) LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2015-07-31T08:39:16+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1438303156882
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T08:39:18+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T08:39:25+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T08:39:43+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1438303182922
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T08:39:59+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1438303199672
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T08:40:04+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1438303204084
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T08:40:05+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T09:45:42+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1438307142168
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-31T09:48:00+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-07-31T09:55:18+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1438307718131
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:02:23+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&date=
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:13:42+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&type=&keyword=
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:14:17+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&type=&keyword=
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-31T10:17:19+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&type=&keyword=
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:18:15+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&type=&keyword=
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:26:35+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&type=&keyword=
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:28:13+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&type=&keyword=
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:28:15+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=2&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&type=&keyword=
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:28:49+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:28:57+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0001s ]
+
+[ 2015-07-31T10:29:00+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:29:02+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:29:33+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:29:44+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:29:48+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0027s ]
+
+[ 2015-07-31T10:30:03+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:30:09+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:30:59+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:32:06+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:32:09+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:33:08+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:33:12+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T10:33:15+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0025s ]
+
+[ 2015-07-31T10:35:03+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T15:54:23+08:00 ] ::1 /finder/sdk.php/doLogin
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE ( account='admin' and password='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-07-31T15:54:25+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0003s ]
+
+[ 2015-07-31T15:54:48+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T15:54:54+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0004s ]
+
+[ 2015-07-31T15:54:58+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T15:54:59+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T15:55:04+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0025s ]
+
+[ 2015-07-31T16:05:10+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0035s ]
+
+[ 2015-07-31T16:05:12+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `line` WHERE ( theme = 14 OR title like "%%"  ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:05:17+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `line` WHERE ( theme = 15 OR title like "%%"  ) ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:05:52+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0043s ]
+
+[ 2015-07-31T16:05:55+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0025s ]
+
+[ 2015-07-31T16:06:10+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0027s ]
+
+[ 2015-07-31T16:09:45+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0027s ]
+
+[ 2015-07-31T16:09:48+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0027s ]
+
+[ 2015-07-31T16:14:14+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0073s ]
+
+[ 2015-07-31T16:14:17+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0027s ]
+
+[ 2015-07-31T16:16:39+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0030s ]
+
+[ 2015-07-31T16:16:41+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0027s ]
+
+[ 2015-07-31T16:16:44+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0025s ]
+
+[ 2015-07-31T16:17:06+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+
+[ 2015-07-31T16:17:10+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `line` WHERE ( theme = 14 and title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( theme = 14 and title like "%%"  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:17:13+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `line` WHERE ( theme = 15 and title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( theme = 15 and title like "%%"  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:17:55+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0041s ]
+
+[ 2015-07-31T16:17:59+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `line` WHERE ( theme = 14 and title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( theme = 14 and title like "%%"  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:18:02+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `line` WHERE ( theme = 15 and title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( theme = 15 and title like "%%"  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:19:13+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `line` WHERE ( title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( title like "%%"  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:19:17+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `line` WHERE ( title like "%as%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( title like "%as%"  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:19:26+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `line` WHERE ( title like "%as%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( title like "%as%"  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:19:28+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:19:32+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `line` WHERE ( title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( title like "%%"  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:20:15+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `line` WHERE ( title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( title like "%%"  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:20:37+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `line` WHERE ( title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( title like "%%"  ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-31T16:20:40+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `line` WHERE ( theme = 14 and title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( theme = 14 and title like "%%"  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:20:44+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `line` WHERE ( theme = 15 and title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( theme = 15 and title like "%%"  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:20:46+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:20:57+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `line` WHERE ( title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( title like "%%"  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:22:39+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0003s ]
+
+[ 2015-07-31T16:22:56+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0003s ]
+
+[ 2015-07-31T16:23:31+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0003s ]
+
+[ 2015-07-31T16:23:40+08:00 ] ::1 /finder/sdk.php/?name=%E6%B5%8B%E8%AF%95%E4%B8%BB%E9%A2%98&parentid=11
+ERR: 非法操作:index
+
+[ 2015-07-31T16:24:10+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:24:12+08:00 ] ::1 /finder/sdk.php/addCategory?name=11&parentid=11
+ERR: 非法操作:addCategory
+
+[ 2015-07-31T16:26:53+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:26:55+08:00 ] ::1 /finder/sdk.php/addInfoCategory?name=123123&parentid=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0051s ]
+NOTIC: [2] Missing argument 1 for Core\Service\CategoryService::addInfoCategory(), called in F:\workspace\php\finder\Application\SDK\Controller\SDKController.class.php on line 93 and defined F:\workspace\php\finder\Application\Core\Service\CategoryService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: category F:\workspace\php\finder\Application\Core\Service\CategoryService.class.php 第 15 行.
+
+[ 2015-07-31T16:29:33+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:29:36+08:00 ] ::1 /finder/sdk.php/addInfoCategory?name=123123&parentid=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+NOTIC: [2] Missing argument 1 for Core\Service\CategoryService::addInfoCategory(), called in F:\workspace\php\finder\Application\SDK\Controller\SDKController.class.php on line 93 and defined F:\workspace\php\finder\Application\Core\Service\CategoryService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: category F:\workspace\php\finder\Application\Core\Service\CategoryService.class.php 第 15 行.
+NOTIC: [8] Undefined variable: category F:\workspace\php\finder\Application\Core\Service\CategoryService.class.php 第 16 行.
+
+[ 2015-07-31T16:30:50+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:30:52+08:00 ] ::1 /finder/sdk.php/addInfoCategory?name=123123&parentid=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0021s ]
+
+[ 2015-07-31T16:31:18+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:31:20+08:00 ] ::1 /finder/sdk.php/addInfoCategory?name=123123&parentid=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+
+[ 2015-07-31T16:31:43+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:31:45+08:00 ] ::1 /finder/sdk.php/addInfoCategory?name=%E6%B5%8B%E8%AF%95&parentid=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: INSERT INTO `category` (`name`,`c_id`,`is_main`) VALUES ('测试','11','0') [ RunTime:0.0014s ]
+
+[ 2015-07-31T16:34:44+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:34:47+08:00 ] ::1 /finder/sdk.php/addInfoCategory?name=%E9%94%99%E4%BD%8D&parentid=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: INSERT INTO `category` (`name`,`c_id`,`is_main`) VALUES ('错位','11','0') [ RunTime:0.0020s ]
+
+[ 2015-07-31T16:34:47+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+
+[ 2015-07-31T16:34:49+08:00 ] ::1 /finder/sdk.php/addInfoCategory?name=%E9%94%99%E4%BD%8D4324&parentid=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: INSERT INTO `category` (`name`,`c_id`,`is_main`) VALUES ('错位4324','11','0') [ RunTime:0.0030s ]
+
+[ 2015-07-31T16:34:49+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:35:33+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:36:45+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0003s ]
+
+[ 2015-07-31T16:36:57+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `line` WHERE ( title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( title like "%%"  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:36:59+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:37:01+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `line` WHERE ( title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( title like "%%"  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-07-31T17:07:34+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0003s ]
+
+[ 2015-07-31T17:07:37+08:00 ] ::1 /finder/sdk.php/addInfoCategory?name=123&parentid=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: INSERT INTO `category` (`name`,`c_id`,`is_main`) VALUES ('123','11','0') [ RunTime:0.0016s ]
+
+[ 2015-07-31T17:07:37+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+
+[ 2015-07-31T17:07:39+08:00 ] ::1 /finder/sdk.php/getLinesByType
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `line` WHERE ( title like "%%"  ) ORDER BY id asc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `line` WHERE ( title like "%%"  ) LIMIT 1   [ RunTime:0.0002s ]
+

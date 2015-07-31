@@ -34,10 +34,9 @@
 			<div class="nav">
 				<?php if($isDashbord): ?><div class="quick">快捷方式</div><?php endif; ?>
 				<ul>
-					<?php if($isDashbord): ?><li><a href="/finder/index.php">kuais</a></li>
-						<li><a href="/finder/index.php">kuais</a></li>
-						<li><a href="/finder/index.php">kuais</a></li>
-						<li><a href="/finder/index.php">kuais</a></li>
+					<?php if($isDashbord): ?><li><a href="/finder/index.php">添加路线</a></li>
+						<li><a href="/finder/index.php">添加主题</a></li>
+						<li><a href="/finder/index.php">未读消息</a></li>
 					<?php else: ?>
 						<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navItem): $mod = ($i % 2 );++$i; if($i == 1): ?><li><a href="/finder/index.php/<?php echo ($module); ?>/categroy/id/<?php echo ($navItem["id"]); ?>" class="selected" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li>
 						<?php else: ?>
@@ -53,8 +52,8 @@
 	<div class="model-bd">
 		<div class="hform">
 			<ul>
-				<li><label for="" class="form-title">主题名称：</label><label for="" class="form-content"><input type="text" class="w-150" placeholder="请输入主题名称"></label></li>
-				<li><label for="" class="form-content"><a href="#" class="btn btn-primary">确定</a></label></li>
+				<li><label for="" class="form-title">主题名称：</label><label for="" class="form-content"><input type="text"  id="js_category_name" class="w-150" placeholder="请输入主题名称"></label></li>
+				<li><label for="" class="form-content"><a href="javascript:;" class="btn btn-primary" id="js_add_category_btn">确定</a></label></li>
 			</ul>
 		</div>
 		<div class="categroy-list">

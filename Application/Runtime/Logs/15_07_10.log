@@ -1,0 +1,15 @@
+[ 2015-07-10T10:59:21+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436497160969
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-10T10:59:24+08:00 ] ::1 /finder/sdk.php/getLinesByType?sEcho=1&iColumns=10&sColumns=%2C%2C%2C%2C%2C%2C%2C%2C%2C&iDisplayStart=0&iDisplayLength=15&mDataProp_0=id&bSortable_0=true&mDataProp_1=title&bSortable_1=true&mDataProp_2=theme&bSortable_2=true&mDataProp_3=start&bSortable_3=true&mDataProp_4=end&bSortable_4=true&mDataProp_5=distance&bSortable_5=true&mDataProp_6=places&bSortable_6=true&mDataProp_7=leader&bSortable_7=true&mDataProp_8=price&bSortable_8=true&mDataProp_9=id&bSortable_9=false&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&_=1436497164611
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `line` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `line` ORDER BY id asc  [ RunTime:0.0002s ]
+
+[ 2015-07-10T10:59:25+08:00 ] ::1 /finder/sdk.php/getCategroyListByParent?parent=11
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+

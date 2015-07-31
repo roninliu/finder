@@ -16,10 +16,9 @@
 				</if>
 				<ul>
 					<if condition="$isDashbord">
-						<li><a href="__ROOT__/index.php">kuais</a></li>
-						<li><a href="__ROOT__/index.php">kuais</a></li>
-						<li><a href="__ROOT__/index.php">kuais</a></li>
-						<li><a href="__ROOT__/index.php">kuais</a></li>
+						<li><a href="__ROOT__/index.php">添加路线</a></li>
+						<li><a href="__ROOT__/index.php">添加主题</a></li>
+						<li><a href="__ROOT__/index.php">未读消息</a></li>
 					<else/>
 						<volist name='nav' id='navItem'>
 						<if condition="$i eq 1">

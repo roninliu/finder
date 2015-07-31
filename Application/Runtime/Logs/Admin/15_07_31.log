@@ -1,0 +1,2700 @@
+[ 2015-07-31T08:39:09+08:00 ] ::1 /finder/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+
+[ 2015-07-31T08:39:15+08:00 ] ::1 /finder/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: info F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2015-07-31T08:39:16+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-07-31T08:39:18+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2015-07-31T08:39:24+08:00 ] ::1 /finder/index.php/info/categroy/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2015-07-31T08:39:42+08:00 ] ::1 /finder/index.php/info/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2015-07-31T08:39:59+08:00 ] ::1 /finder/index.php/info/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2015-07-31T08:40:01+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2015-07-31T08:40:04+08:00 ] ::1 /finder/index.php/info/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2015-07-31T08:40:05+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2015-07-31T09:45:42+08:00 ] ::1 /finder/index.php/info/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2015-07-31T09:47:49+08:00 ] ::1 /finder/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+
+[ 2015-07-31T09:48:00+08:00 ] ::1 /finder/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: info F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2015-07-31T09:50:34+08:00 ] ::1 /finder/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined variable: info F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2015-07-31T09:51:18+08:00 ] ::1 /finder/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: info F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2015-07-31T09:52:14+08:00 ] ::1 /finder/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: info F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: session F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2015-07-31T09:54:12+08:00 ] ::1 /finder/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: info F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: session F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2015-07-31T09:54:20+08:00 ] ::1 /finder/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Undefined variable: info F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Use of undefined constant session - assumed 'session' F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 48 行.
+NOTIC: [2] Illegal string offset 'nickname' F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2015-07-31T09:54:48+08:00 ] ::1 /finder/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: info F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2015-07-31T09:54:55+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2015-07-31T09:55:18+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2015-07-31T10:02:23+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2015-07-31T10:13:42+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2015-07-31T10:14:17+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-07-31T10:17:18+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2015-07-31T10:18:15+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2015-07-31T10:26:35+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2015-07-31T10:28:13+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2015-07-31T10:28:49+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2015-07-31T10:28:57+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2015-07-31T10:29:33+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2015-07-31T10:30:59+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-07-31T10:32:06+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2015-07-31T10:33:08+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2015-07-31T15:54:16+08:00 ] ::1 /finder/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+
+[ 2015-07-31T15:54:23+08:00 ] ::1 /finder/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined variable: info F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\af1a97125854a17d18f5eed3b2ee176e.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2015-07-31T15:54:25+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2015-07-31T15:54:54+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2015-07-31T15:54:58+08:00 ] ::1 /finder/index.php/info/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2015-07-31T15:54:59+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2015-07-31T16:05:10+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2015-07-31T16:05:52+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2015-07-31T16:09:45+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2015-07-31T16:14:14+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2015-07-31T16:16:18+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2015-07-31T16:16:30+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2015-07-31T16:16:39+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2015-07-31T16:17:06+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2015-07-31T16:17:54+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2015-07-31T16:19:13+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-07-31T16:19:24+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-07-31T16:19:26+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-07-31T16:19:28+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2015-07-31T16:19:32+08:00 ] ::1 /finder/index.php/info/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2015-07-31T16:20:15+08:00 ] ::1 /finder/index.php/info/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2015-07-31T16:20:37+08:00 ] ::1 /finder/index.php/info/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2015-07-31T16:20:46+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2015-07-31T16:20:57+08:00 ] ::1 /finder/index.php/info/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-07-31T16:22:38+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2015-07-31T16:22:55+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2015-07-31T16:23:31+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2015-07-31T16:24:10+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2015-07-31T16:26:53+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2015-07-31T16:29:33+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2015-07-31T16:30:49+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2015-07-31T16:31:18+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2015-07-31T16:31:43+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2015-07-31T16:34:44+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2015-07-31T16:35:33+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2015-07-31T16:36:44+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2015-07-31T16:36:57+08:00 ] ::1 /finder/index.php/info/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2015-07-31T16:36:59+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-07-31T16:37:01+08:00 ] ::1 /finder/index.php/info/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2015-07-31T17:07:34+08:00 ] ::1 /finder/index.php/info/add/type/categroy/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\d3afdda9e078090e5847666b91c99766.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2015-07-31T17:07:39+08:00 ] ::1 /finder/index.php/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\f566530bb0b4395ca1528b745d3b5727.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-07-31T17:07:40+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2015-07-31T17:16:25+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-07-31T17:19:11+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 24 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 35 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-07-31T17:55:07+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2015-07-31T17:55:48+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2015-07-31T17:55:58+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2015-07-31T17:56:11+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2015-07-31T17:56:22+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2015-07-31T17:58:15+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2015-07-31T17:58:26+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2015-07-31T17:58:36+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2015-07-31T17:59:25+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2015-07-31T18:02:52+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2015-07-31T18:06:04+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2015-07-31T18:06:19+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2015-07-31T18:06:33+08:00 ] ::1 /finder/index.php/info/add/type/line/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="11" )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( c_id ="1" )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: dashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: user F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: message F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: myself F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 26 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 37 行.
+NOTIC: [8] Undefined variable: isDashbord F:\workspace\php\finder\Application\Runtime\Cache\Admin\686012a65acd9826327a6e96e8f34e5f.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+

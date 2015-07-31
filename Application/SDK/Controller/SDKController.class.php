@@ -19,18 +19,45 @@ class SDKController extends Controller {
 		$type = I("type");
 		$sortKey = $this->getSortKey(I("iSortCol_0"));
 		$sortType = I("sSortDir_0");
-		$param = array(
-			'type' => $type,
-			'key' => $sortKey,
-			'sort' => $sortType,
-		);
+		$keyword = I("keyword");
+		if ($keyword == "") {
+			$param = array(
+				'type' => $type,
+				'key' => $sortKey,
+				'sort' => $sortType,
+				'keyword' => null,
+				'iDisplayStart' => I("iDisplayStart"),
+				'iDisplayLength' => I('iDisplayLength'),
+			);
+		} else {
+			$param = array(
+				'type' => $type,
+				'key' => $sortKey,
+				'sort' => $sortType,
+				'keyword' => $keyword,
+				'iDisplayStart' => I("iDisplayStart"),
+				'iDisplayLength' => I('iDisplayLength'),
+			);
+		}
+
 		$result = $lineService->findLinesByType($param);
 		if ($result != null) {
 			$json = array(
-				'sEcho' => I("sEcho"),
-				'iTotalRecords' => count($result),
-				'iTotalDisplayRecords' => count($result),
-				'aaData' => $result,
+				'code' => 0,
+				'msg' => "成功",
+				'data' => array(
+					'sEcho' => I("sEcho"),
+					'iTotalRecords' => $result["length"],
+					'iTotalDisplayRecords' => $result["length"],
+					'aaData' => $result['data'],
+				),
+			);
+			$this->ajaxReturn($json);
+		} else {
+			$json = array(
+				'code' => 1,
+				'msg' => "失败",
+				'data' => array(),
 			);
 			$this->ajaxReturn($json);
 		}
@@ -57,6 +84,32 @@ class SDKController extends Controller {
 			);
 			$this->ajaxReturn($json);
 		}
+	}
+
+	public function addInfoCategory() {
+		$map = array(
+			'parent' => I("parentid"),
+			'name' => I('name'),
+		);
+		$categroyService = D("Core/Category");
+
+		$result = $categroyService->addInfoCategory($map);
+		if (!$result) {
+			$json = array(
+				'code' => 1,
+				'msg' => '主题添加失败',
+				'data' => $result,
+			);
+			$this->ajaxReturn($json);
+		} else {
+			$json = array(
+				'code' => 0,
+				'msg' => '添加成功',
+				'data' => '',
+			);
+			$this->ajaxReturn($json);
+		}
+
 	}
 
 	private function getSortKey($sort) {

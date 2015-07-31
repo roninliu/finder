@@ -27,14 +27,26 @@ define(function(require, exports, module) {
 
 
 				}else{
-					utils.alert(result.msg);
+					utils.alerts(result.msg);
 				}
 			}
 		})
 	}
 
 	var _setCategoryNameHandler = function(o){
-		
+		$.ajax({
+			url:config.SDK_URL+"addInfoCategory",
+			data:o,
+			success:function(result){
+				console.log(result);
+				if(result.code == 1){
+					utils.alerts(result.msg);
+				}else{
+					utils.alerts(result.msg);
+					_getThemeListHandler();
+				}
+			}
+		})
 	}
 
 	var _initPageHandler = function(){
@@ -48,7 +60,7 @@ define(function(require, exports, module) {
 		$("#js_add_category_btn").click(function(){
 			var categoryName = $("#js_category_name").val();
 			if(categoryName == ""){
-				utils.alert("主题名称不能为空");
+				utils.alerts("主题名称不能为空");
 				return false;
 			}
 			var parents = $("#js_title").data("parentid");

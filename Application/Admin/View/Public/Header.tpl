@@ -10,6 +10,8 @@
 		<title>Finder in China</title>
 		<link rel="stylesheet" type="text/css" href="__ROOT__/Public/css/style.css">
 		<script src="__ROOT__/Public/lib/jquery-2.1.0.min.js"></script>
+		<script src="__ROOT__/Public/lib/ckeditor/ckeditor.js"></script>
 		<script src="__ROOT__/Public/lib/sea.js"></script>
+
 	</head>
 	

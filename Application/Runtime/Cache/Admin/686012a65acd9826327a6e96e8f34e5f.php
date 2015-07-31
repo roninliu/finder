@@ -11,7 +11,9 @@
 		<title>Finder in China</title>
 		<link rel="stylesheet" type="text/css" href="/finder/Public/css/style.css">
 		<script src="/finder/Public/lib/jquery-2.1.0.min.js"></script>
+		<script src="/finder/Public/lib/ckeditor/ckeditor.js"></script>
 		<script src="/finder/Public/lib/sea.js"></script>
+
 	</head>
 	
 <body class="main-layout">
@@ -34,10 +36,9 @@
 			<div class="nav">
 				<?php if($isDashbord): ?><div class="quick">快捷方式</div><?php endif; ?>
 				<ul>
-					<?php if($isDashbord): ?><li><a href="/finder/index.php">kuais</a></li>
-						<li><a href="/finder/index.php">kuais</a></li>
-						<li><a href="/finder/index.php">kuais</a></li>
-						<li><a href="/finder/index.php">kuais</a></li>
+					<?php if($isDashbord): ?><li><a href="/finder/index.php">添加路线</a></li>
+						<li><a href="/finder/index.php">添加主题</a></li>
+						<li><a href="/finder/index.php">未读消息</a></li>
 					<?php else: ?>
 						<?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navItem): $mod = ($i % 2 );++$i; if($i == 1): ?><li><a href="/finder/index.php/<?php echo ($module); ?>/categroy/id/<?php echo ($navItem["id"]); ?>" class="selected" data-id='<?php echo ($navItem["id"]); ?>' data-parent='<?php echo ($navItem["c_id"]); ?>'><?php echo ($navItem["name"]); ?></a></li>
 						<?php else: ?>
@@ -53,10 +54,38 @@
 	<div class="model-bd">
 		<div class="vform">
 			<ul>
-				<li><label for="" class="form-title">路线名称：</label><label for="" class="form-content"><input type="text" placeholder="请输入关键字"></label></li>
-				<li><label for="" class="form-title">路线主题：</label><label for="" class="form-content"></label></li>
-				<li><label for="" class="form-title">出发城市：</label><label for="" class="form-content"></label></li>
-				<li><label for="" class="form-title">线路详情：</label><label for="" class="form-content"></label></li>
+				<li>
+					<label for="" class="form-title">路线名称：</label>
+					<label for="" class="form-content">
+						<input type="text" placeholder="请输入关键字" class="w-700">
+					</label>
+				</li>
+				<li>
+					<label for="" class="form-title">自驾主题：</label>
+					<label for="" class="form-content">
+						<select name="" id="js_themeId" class="w-300">
+							<option value="0">--全部--</option>
+							<?php if(is_array($theme)): $i = 0; $__LIST__ = $theme;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$themeItem): $mod = ($i % 2 );++$i;?><option value="<?php echo ($themeItem["id"]); ?>" data-parent="<?php echo ($themeItem["c_id"]); ?>"><?php echo ($themeItem["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+						</select>
+					</label>
+				</li>
+				<li>
+					<label for="" class="form-title">出发城市：</label>
+					<label for="" class="form-content">
+						<select name="" id="js_province" class="w-150 js_province">
+							<option value="0">--全部--</option>
+						</select>
+						<select name="" id="js_city" class="w-150 js_city">
+							<option value="0">--全部--</option>
+						</select>
+					</label>
+				</li>
+				<li>
+					<label for="" class="form-title">线路详情：</label>
+					<label for="" class="form-content w-700">
+						<textarea name="" id="js_editor" class="w-700" cols="30" rows="10">ceshi</textarea>
+					</label>
+				</li>
 			</ul>
 		</div>
 	</div>

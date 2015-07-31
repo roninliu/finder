@@ -13,13 +13,14 @@
 	<div class="model-bd">
 		<div class="filter">
 			<ul class="hform">
-				<li><label for="" class="form-title">自驾主题：</label><label for="" class="form-content"><select name="" id="">
+				<li><label for="" class="form-title">自驾主题：</label><label for="" class="form-content"><select name="" id="js_themeId">
+					<option value="0">--全部--</option>
 					<volist name='theme' id='themeItem'>
     					<option value="{$themeItem.id}" data-parent="{$themeItem.c_id}">{$themeItem.name}</option>
 					</volist>
 				</select></label></li>
-				<li><label for="" class="form-title">关键字搜索：</label><label for="" class="form-content"><input type="text" placeholder="请输入关键字"></label></li>
-				<li><label for="" class="form-content"><a href="#" class="btn btn-primary">搜索</a></label></li>
+				<li><label for="" class="form-title">关键字搜索：</label><label for="" class="form-content"><input type="text" placeholder="请输入关键字" id="js_key"></label></li>
+				<li><label for="" class="form-content"><a href="javascript:;" class="btn btn-primary" id="js_search_btn">搜索</a></label></li>
 			</ul>
 		</div>
 		<div class="result">

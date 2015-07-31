@@ -34,6 +34,33 @@ define(function(require, exports, module) {
 				},
 				"sSearch": "搜索："
 			},
+			"fnServerParams": function(aoData) {
+				aoData.push({
+					name: "type",
+					value: $("#js_themeId").val()
+				});
+				aoData.push({
+					name:"iSortCol_0",
+					value:0
+				});
+				aoData.push({
+					name:"keyword",
+					value:$("#js_key").val(),
+				})
+			},
+			"fnServerData": function(sSource, aDataSet, fnCallback) {
+				$.ajax({
+					"type":"POST",
+					"url": sSource,
+					"data": aDataSet,
+					"success": function(resp) {
+						console.log(resp);
+						if (resp.code == 0) {
+							fnCallback(resp.data);
+						}
+					}
+				});
+			},
 			"sZeroRecords": "没有检索到数据",
 			"sAjaxSource": config.SDK_URL+ "getLinesByType",
 			"columns": [{
@@ -122,11 +149,14 @@ define(function(require, exports, module) {
 	var _initLinesHandler = function(){
 		
 		_initLineTableHandler();
+		$("#js_search_btn").click(function(){
+			_lineTable.fnClearTable();
+		})
 	}
 
 	
 	var _initAddLinesHandler = function(){
-		
+		CKEDITOR.replace( 'js_editor' );
 	}
 
 	exports.init = function(module) {

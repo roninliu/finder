@@ -43,6 +43,14 @@ button {
   border: 1px solid #ccc;
   background-color: #f2f2f2;
 }
+select {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  height: 28px;
+  padding: 3px;
+  font-size: 12px;
+  border-radius: 4px;
+}
 .dataTables_wrapper {
   min-height: 150px;
 }
@@ -58,6 +66,12 @@ button {
 }
 .w-150 {
   width: 150px;
+}
+.w-700 {
+  width: 700px;
+}
+.w-300 {
+  width: 300px;
 }
 table.dataTable {
   border: 1px solid #dee6ea;
@@ -202,6 +216,32 @@ table.dataTable tr.even {
 .hform li .form-content {
   display: inline-block;
   vertical-align: middle;
+}
+.vform {
+  display: block;
+  zoom: 1;
+}
+.vform:after {
+  font-size: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: '.';
+}
+.vform li {
+  padding: 8px 0;
+}
+.vform li .form-title {
+  display: inline-block;
+  zoom: 1;
+  vertical-align: top;
+  margin-right: 5px;
+  line-height: 28px;
+}
+.vform li .form-content {
+  display: inline-block;
+  vertical-align: top;
 }
 .header {
   overflow: hidden;
